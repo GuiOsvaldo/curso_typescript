@@ -9,7 +9,8 @@
     "lint:format": "prettier --log-level warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
     "lint": "npm run lint:format && npm run lint:fix",
     "start": "ts-node",
-    "dev":"ts-node --watch"
+    "dev": "ts-node --watch",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

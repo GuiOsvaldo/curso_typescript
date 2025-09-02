@@ -1,15 +1,12 @@
 {
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "eslint.validate": [
-        "javascript",
-        "typescript"
-    ],
-    "window.zoomLevel": 0,
-    "code-runner.executorMap": {
-        "typescript": "npx ts-node --transpile-only"
-    },
-    "code-runner.runInTerminal": true,
-    "code-runner.saveFileBeforeRun": true
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "window.zoomLevel": 0,
+  "code-runner.executorMap": {
+    "typescript": "npx ts-node --transpile-only"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true
 }
